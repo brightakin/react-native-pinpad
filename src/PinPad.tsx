@@ -91,7 +91,6 @@ const PinPad: React.FC<PinPadProps> = ({
 const styles = StyleSheet.create({
   numberText: {
     fontSize: 28,
-    fontWeight: 'bold',
     textAlign: 'center',
   },
   rippleContainer: {
