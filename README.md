@@ -26,7 +26,7 @@ To use `react-native-pinpad` in your app, follow this example:
 ```javascript
 import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import PinPad from 'react-native-pinpad';
+import Pinpad from 'react-native-pinpad';
 
 const App = () => {
   const [pin, setPin] = useState('');
@@ -43,7 +43,7 @@ const App = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Enter PIN:</Text>
       <Text style={styles.pinDisplay}>{'*'.repeat(pin.length)}</Text>
-      <PinPad onItemClick={handleItemClick} onDeleteItem={handleDelete} />
+      <Pinpad onItemClick={handleItemClick} onDeleteItem={handleDelete} />
     </View>
   );
 };
@@ -72,7 +72,7 @@ export default App;
 ## ⚡ Customizing the PIN Pad
 
 ```javascript
-<PinPad 
+<Pinpad 
   buttonStyle={{ backgroundColor: 'lightblue' }} 
   textStyle={{ color: 'white', fontSize: 24 }} 
 />
@@ -83,7 +83,7 @@ export default App;
 ```javascript
 import { MaterialIcons } from '@expo/vector-icons';
 
-<PinPad deleteIcon={<MaterialIcons name="backspace" size={24} color="red" />} />
+<Pinpad deleteIcon={<MaterialIcons name="backspace" size={24} color="red" />} />
 ```
 
 ## 🛠️ Contributing
