@@ -1,6 +1,6 @@
 {
   "name": "react-native-pinpad",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react-native-pinpad is a customizable React Native component for secure PIN input, designed for authentication and transaction verification. It supports styling options, haptic feedback, and optional masking for enhanced security",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
