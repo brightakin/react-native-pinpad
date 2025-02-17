@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
 
 export default App;
 ```
+![PinPad Demo](https://user-images.githubusercontent.com/27721091/63924925-d23ebf00-ca51-11e9-993d-553c11c3bcbd.gif)
 
 ## 🔧 Props & API Reference
 
