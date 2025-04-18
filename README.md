@@ -102,4 +102,4 @@ yarn install
 ```
 
 ## ⭐ Support the Project
-If you find this package useful, star the repo on GitHub! 🌟
+If you find this package useful, star the repo on GitHub! 🌟 
