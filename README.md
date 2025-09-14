@@ -1,4 +1,4 @@
-# 📌 react-native-pinpad
+# 📌 React-Native-Pinpad
 
 **react-native-pinpad** is a customizable **React Native PIN pad** component for secure PIN input, designed for **authentication and transaction verification**.  
 It supports **styling options and optional masking** for enhanced security.
